@@ -115,19 +115,23 @@ Brand New Group of Architects
     font-weight: 700;
     font-size: 35px;
 }
-#f-h-1{
-    color: #727272  ;
+
+#f-h-1 {
+    color: #727272;
 }
-#f-h-2{
-    color: #FF900E ;
+
+#f-h-2 {
+    color: #FF900E;
 }
-.feature-info p{
+
+.feature-info p {
     font-weight: 400;
     font-size: 12px;
     margin: 25px 0 30px 0;
     color: #727272;
 }
-.feature-info button{
+
+.feature-info button {
     padding: 15px 20px;
     border: 0;
     border-radius: 6px;
@@ -136,46 +140,55 @@ Brand New Group of Architects
     font-weight: 600;
     font-size: 15px;
 }
+
 /*-------------------------------
  Features you will love & enjoy
 ---------------------------- */
-.love-enjoy-container{
+.love-enjoy-container {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     margin: 40px 10%;
     gap: 80px;
 }
-.love-enjoy-container h3{
+
+.love-enjoy-container h3 {
     font-weight: 700;
     font-size: 35px;
 }
-.love-enjoy-container p{
+
+.love-enjoy-container p {
     font-weight: 400;
     font-size: 13px;
     color: #727272;
 }
-.feature p{
+
+.feature p {
     margin: 25px 0px;
 }
-.love-enjoy-feature{
+
+.love-enjoy-feature {
     margin: 10px 0px;
     padding: 10px;
     border: 0;
     border-radius: 7px;
     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.149);
 }
-.love-enjoy-feature h4{
+
+.love-enjoy-feature h4 {
     font-weight: 600;
     font-size: 15px;
 }
-.love-enjoy-img-btn{
+
+.love-enjoy-img-btn {
     width: 100%;
 }
-.love-enjoy-img-btn img{
+
+.love-enjoy-img-btn img {
     width: 105%;
     height: 95%;
 }
-.love-enjoy-img-btn button{
+
+.love-enjoy-img-btn button {
     padding: 25px 25px;
     border: 0;
     border-radius: 6px;
@@ -183,92 +196,107 @@ Brand New Group of Architects
     color: white;
     font-weight: 600;
     font-size: 15px;
-    position:relative;
-    top:-10% ;
+    position: relative;
+    top: -10%;
     left: -12%;
 }
-#feature-btn-span{
+
+#feature-btn-span {
     font-size: 35px;
 }
+
 /*--------
  some facts
 --------- */
-.some-fact-container{
+.some-fact-container {
     margin: 130px 10%;
     display: grid;
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
 }
-.some-fact-headinfo{
+
+.some-fact-headinfo {
     width: 450px;
     margin-bottom: 100px;
 }
-.some-fact-headinfo h3{
+
+.some-fact-headinfo h3 {
     font-weight: 700;
     font-size: 35px;
 }
-.some-fact-headinfo p{
+
+.some-fact-headinfo p {
     font-weight: 400;
     font-size: 13px;
     color: #727272;
     margin-top: 25px;
 }
-.some-fact-info{
+
+.some-fact-info {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     text-align: center;
 }
-.some-fact-info h4{
+
+.some-fact-info h4 {
     font-weight: 600;
     font-size: 35px;
 }
-.info-btn{
+
+.info-btn {
     padding: 25px;
     background-color: white;
     border: 1px solid #FF900E;
     transition: 0.4s;
 }
-.info-btn:hover{
-    border:1px solid #ff8f0e7b;
-    background-color:#ff8f0e7b ;
+
+.info-btn:hover {
+    border: 1px solid #ff8f0e7b;
+    background-color: #ff8f0e7b;
     color: white;
 }
+
 /*---------------
  our sponsors
 ------------- */
-.sponsors-container{
+.sponsors-container {
     display: grid;
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
     text-align: center;
 }
-.sponsors-title{
-    margin:50px 0 ;
+
+.sponsors-title {
+    margin: 50px 0;
 }
-.sponsors-title h3{
+
+.sponsors-title h3 {
     font-weight: 700;
     font-size: 35px;
 }
-.sponsors-title p{
+
+.sponsors-title p {
     font-weight: 400;
     font-size: 13px;
     color: #727272;
     margin-top: 25px;
 }
-.sponsors-logos{
+
+.sponsors-logos {
     margin: 0 10%;
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 40px;
 }
-.sponsors-logos img{
+
+.sponsors-logos img {
     width: 80%;
-    color: black;
 }
+
 /*---------------
  our promise
 -------------- */
-.our-promise-container{
+.our-promise-container {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
     color: #FF900E;
     padding: 50px;
@@ -282,30 +310,182 @@ Brand New Group of Architects
     background-color: #898989a7;
     background-blend-mode: multiply;
 }
-.our-promise-container h3{
+
+.our-promise-container h3 {
     font-weight: 700;
     font-size: 35px;
 }
-.our-promise-container p{
+
+.our-promise-container p {
     font-weight: 400;
     font-size: 14px;
     margin: 25px;
 }
-.promise-img img{
+
+.promise-img img {
     width: 80%;
 }
+
 /*-----------
  footer 
 ------------ */
-.footer-div{
+.footer-div {
     text-align: center;
     margin: 0px 10% 200px 10%;
-    background-color: #FFF4E7 ;
+    background-color: #FFF4E7;
 }
-.footer-div p{
+
+.footer-div p {
     padding: 40px 100px;
     font-weight: 400;
     font-size: 11px;
     color: #727272;
 }
 
+/*-------------
+ media query
+---------- */
+@media only screen and (max-width:576px) {
+    /*--------------
+     nav 
+    ---------------- */
+    .nav-container {
+        width: 90%;
+        align-items: flex-start;
+        padding: 40px 5% 20px 5%;
+    }
+
+    .nav-a ul {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /*-------------
+     brand new 
+    ------------ */
+    .brand-new-container {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .brand-new-container h3,
+    .brand-new-container p {
+        padding: 30px 5%;
+        width: 90%;
+    }
+
+    .brand-new-container img {
+        width: 100%;
+    }
+    /*--------------
+     feature 
+    -------------- */
+    .features-container {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0;
+    }
+
+    .feature-img {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .feature-img img {
+        width: 100%;
+    }
+
+    .feature-info {
+        width: 100%;
+        text-align: center;
+    }
+    /*-----------
+     love enjoy 
+    --------- */
+    .love-enjoy-container {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 40px 0px;
+    }
+    .feature h3,.feature p{
+        padding: 0 20px;
+    }
+    .love-enjoy-feature{
+        margin: 0 20px;
+    }
+    .love-enjoy-img-btn{
+        text-align: center;
+    }
+    .love-enjoy-img-btn img {
+        width: 100%;
+    }
+
+    .love-enjoy-img-btn button {
+        position:relative;
+        top: -10%;
+        left: auto;
+        right: auto;
+    }
+    /*----------
+     some fact
+    --------- */
+    .some-fact-container{
+        width: 100%;
+        margin: 0;
+    }
+    .some-fact-headinfo{
+        text-align: center;
+        width: 90%;
+        padding: 0 5%;
+    }
+    .some-fact-info{
+        width: 100%;
+        text-align: center;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .info-div{
+        margin: 20px 0;
+    }
+    /*------------
+     sponsors 
+    ------------- */
+    .sponsors-container{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 150px;
+    }
+    .sponsors-logos{
+        justify-items: center;
+        margin: 0;
+        grid-template-columns: repeat(1,1fr);
+        gap: 70px;
+    }
+    .sponsors-logos img{
+        width: 40%;
+    }
+    /*--------------
+     promise 
+    --------------- */
+    .our-promise-container{
+        width: 100%;
+        margin: 0 0 150px 0;
+        padding: 0;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .promise-div{
+        width: 100%;
+    }
+    .promise-img{
+        display: none;
+        background-size: cover;
+    }
+    /*-------------
+     footer 
+    ------------ */
+    .footer-div{
+        width: 100%;
+        margin: 0;
+    }
+}
+
+.hide {
+    display: none;
+}
